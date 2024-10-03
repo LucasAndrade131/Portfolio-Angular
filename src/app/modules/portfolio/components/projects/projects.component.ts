@@ -18,32 +18,47 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
+      src: 'assets/img/projects/barbearia.png',
+      alt: 'Projeto Barbearia',
+      title: 'Projeto Barbearia',
       with: '100px',
       height: '51px',
       description:
-        '<p>Explore o fascinante mundo do desenvolvimento web no meu blog dedicado exclusivamente ao ecossistema Angular, Front-end, JavaScript, Node.js e TypeScript.</p> <p>Desvende os segredos por trás da construção de interfaces modernas, aprimore suas habilidades de programação front-end quanto back-end e mergulhe em conceitos avançados de JavaScript e TypeScript.</p>',
+        '<p>Projeto feito somente com HTML e CSS.</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
+          name: 'Conheça a página',
+          href: 'https://lucasandrade131.github.io/Projeto-Barbearia/produtos.html',
         },
       ],
     },
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
+      src: 'assets/img/projects/CRUD.png',
+      alt: 'Projeto CRUD',
+      title: 'Projeto CRUD',
       with: '100px',
       height: '51px',
       description:
-        '<p>Explore o fascinante mundo do desenvolvimento web no meu blog dedicado exclusivamente ao ecossistema Angular, Front-end, JavaScript, Node.js e TypeScript.</p> <p>Desvende os segredos por trás da construção de interfaces modernas, aprimore suas habilidades de programação front-end quanto back-end e mergulhe em conceitos avançados de JavaScript e TypeScript.</p>',
+        '<p>Projeto para aplicação de conhecimentos de CRUD, com JAVA/Spring e Angular. Utilizando Postman para testes.</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
+          name: 'Projeto Angular e JAVA',
+          href: 'https://www.linkedin.com/posts/lucas-silva-andrade_programaaexaeto-desenvolvimento-java-activity-7224942344926633985-dEgW?utm_source=share&utm_medium=member_desktop',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/sistema_biblioteca_java.jpg',
+      alt: 'Projeto Livraria',
+      title: 'Projeto Livraria',
+      with: '100px',
+      height: '51px',
+      description:
+        '<p>Projeto Livraria feito com Java, e interface com JOptionPane.</p>',
+      links: [
+        {
+          name: 'Projeto Livraria',
+          href: 'https://www.linkedin.com/feed/update/urn:li:activity:7139962050235064320/',
         },
       ],
     },

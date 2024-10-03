@@ -12,7 +12,7 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-          strong: 'Estágio Full-stack',
+          strong: 'Estagiário Full-stack',
           p: 'SBM TECHNOLOGY | Mai 2024 - Atual'
       },
       text: '<p>Participação em treinamento intensivo Full-stack, focado em tecnologias como Java/Spring, Angular (PrimeNG), JavaScript/TypeScript, HTML/CSS, MySQL e Postgresql e Jira.</p> <p>Desenvolvimento de projetos integrados com foco em aplicações CRUD, envolvendo back-end, front-end e banco de dados.</p> <p>Realização de testes para assegurar a qualidade e estabilidade das aplicações.</p> <p>Atuação em metodologias ágeis, com organização de Sprints semanais utilizando Jira para entregas contínuas.</p> <p>Implementação de melhorias em ambientes de desenvolvimento, otimizando processos e fluxos de trabalho.</p>'
