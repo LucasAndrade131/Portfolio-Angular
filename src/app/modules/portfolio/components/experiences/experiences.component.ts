@@ -36,7 +36,7 @@ export class ExperiencesComponent {
         strong: 'Principais Habilidades Técnicas',
         p: 'Ao longo da vida',
       },
-      text: '<p><strong>Front-end:</strong> HTML5, CSS3, JavaScript, TypeScript, Angular, PrimeNG, Angular Material, WordPress</p> <p><strong>Back-end:</strong> Java/Spring, Node.js, MySQL e PostgreSQL</p> <p><strong>Ferramentas e Metodologias:</strong> GitFlow, Jira, Trello, Scrum, BDD, Postman</p> <p><strong>Outras Tecnologias:</strong> VsCode, Eclipse, Intellij ef Trello</p>',
+      text: '<p><strong>Front-end:</strong> HTML5, CSS3, JavaScript, TypeScript, Angular, PrimeNG, Angular Material, WordPress./p> <p><strong>Back-end:</strong> Java/Spring, Node.js, MySQL e PostgreSQL.</p> <p><strong>Ferramentas e Metodologias:</strong> GitFlow, Jira, Trello, Scrum, BDD, Postman.</p> <p><strong>Outras Tecnologias:</strong> VsCode, Eclipse, Intellij e Trello.</p> <p><strong>Principais Soft Skiils:</strong> Comunicação, Trabalho em equipe, Adaptabilidade, Resolução de problemas e Curiosidade e desejo de aprender.</p>',
     },
   ]);
 }
