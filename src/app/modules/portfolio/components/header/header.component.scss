@@ -18,9 +18,11 @@
 
   header {
     img {
-      border-radius: 100px;
+      border-radius: 100%; /* Para um círculo perfeito */
       border: 5px solid var(--white);
       margin-bottom: 15px;
+      max-width: 100%; /* Torna a imagem responsiva */
+      height: auto;
     }
   }
 
@@ -42,6 +44,8 @@
       margin: 20px 0;
 
       ul {
+        display: flex;
+        flex-wrap: wrap; /* Para empilhar em telas menores */
         li {
           a {
             width: 250px;
